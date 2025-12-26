@@ -17,7 +17,7 @@ ENV APK_COREUTILS_VERSION="9.9-r0"
 # renovate: datasource=repology depName=alpine_3_23/gettext versioning=loose
 ENV APK_GETTEXT_VERSION="0.24.1-r1"
 
-RUN apk --no-cache add \
+RUN apk --no-cache add --update \
       bash="${APK_BASH_VERSION}" \
       docker-cli="${APK_DOCKER_CLI_VERSION}" \
       httpie="${APK_HTTPIE_VERSION}" \
