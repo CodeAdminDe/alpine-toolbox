@@ -18,13 +18,13 @@ ENV APK_COREUTILS_VERSION="9.9-r0"
 ENV APK_GETTEXT_VERSION="0.24.1-r1"
 
 RUN apk --no-cache add --update \
-      bash="${APK_BASH_VERSION}" \
-      docker-cli="${APK_DOCKER_CLI_VERSION}" \
-      httpie="${APK_HTTPIE_VERSION}" \
-      curl="${APK_CURL_VERSION}" \
-      jq="${APK_JQ_VERSION}" \
-      coreutils="${APK_COREUTILS_VERSION}" \
-      gettext="${APK_GETTEXT_VERSION}"
+      bash="$APK_BASH_VERSION" \
+      docker-cli="$APK_DOCKER_CLI_VERSION" \
+      httpie="$APK_HTTPIE_VERSION" \
+      curl="$APK_CURL_VERSION" \
+      jq="$APK_JQ_VERSION" \
+      coreutils="$APK_COREUTILS_VERSION" \
+      gettext="$APK_GETTEXT_VERSION"
 
 # renovate: datasource=custom.k8s depName=kubectl
 ENV KUBECTL_VERSION=v1.35.0
