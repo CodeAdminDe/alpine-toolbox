@@ -1,6 +1,7 @@
 FROM alpine:3.23.2@sha256:865b95f46d98cf867a156fe4a135ad3fe50d2056aa3f25ed31662dff6da4eb62
 
 LABEL org.opencontainers.image.source="https://github.com/codeadminde/alpine-toolbox"
+LABEL org.opencontainers.image.description="Docker image based on alpine image, with additional binaries for building and configuring stuff."
 
 # renovate: datasource=repology depName=alpine_3_23/bash versioning=loose
 ENV APK_BASH_VERSION=5.3.3-r1
