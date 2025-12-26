@@ -13,7 +13,7 @@ ENV APK_CURL_VERSION=8.17.0-r1
 # renovate: datasource=repology depName=alpine_3_23/jq versioning=loose
 ENV APK_JQ_VERSION=1.8.1-r0
 # renovate: datasource=repology depName=alpine_3_23/coreutils versioning=loose
-ENV APK_COREUTILS_VERSION=9.9-r0
+ENV APK_COREUTILS_VERSION=9.8-r1
 # renovate: datasource=repology depName=alpine_3_23/gettext versioning=loose
 ENV APK_GETTEXT_VERSION=0.24.1-r1
 
