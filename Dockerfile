@@ -3,19 +3,19 @@ FROM alpine:3.23.2@sha256:865b95f46d98cf867a156fe4a135ad3fe50d2056aa3f25ed31662d
 LABEL org.opencontainers.image.source="https://github.com/codeadminde/alpine-toolbox"
 
 # renovate: datasource=repology depName=alpine_3_23/bash versioning=loose
-ENV APK_BASH_VERSION="5.3.3-r1"
+ENV APK_BASH_VERSION=5.3.3-r1
 # renovate: datasource=repology depName=alpine_3_23/docker-cli versioning=loose
-ENV APK_DOCKER_CLI_VERSION="29.1.3-r0"
+ENV APK_DOCKER_CLI_VERSION=29.1.3-r0
 # renovate: datasource=repology depName=alpine_3_23/httpie versioning=loose
-ENV APK_HTTPIE_VERSION="3.2.4-r1"
+ENV APK_HTTPIE_VERSION=3.2.4-r1
 # renovate: datasource=repology depName=alpine_3_23/curl versioning=loose
-ENV APK_CURL_VERSION="8.17.0-r1"
+ENV APK_CURL_VERSION=8.17.0-r1
 # renovate: datasource=repology depName=alpine_3_23/jq versioning=loose
-ENV APK_JQ_VERSION="1.8.1-r0"
+ENV APK_JQ_VERSION=1.8.1-r0
 # renovate: datasource=repology depName=alpine_3_23/coreutils versioning=loose
-ENV APK_COREUTILS_VERSION="9.9-r0"
+ENV APK_COREUTILS_VERSION=9.9-r0
 # renovate: datasource=repology depName=alpine_3_23/gettext versioning=loose
-ENV APK_GETTEXT_VERSION="0.24.1-r1"
+ENV APK_GETTEXT_VERSION=0.24.1-r1
 
 RUN apk --no-cache add --update \
       bash="$APK_BASH_VERSION" \
