@@ -78,6 +78,9 @@ jobs:
             type=ref,event=tag,enable=true,priority=600
             type=ref,event=pr,prefix=pr-,enable=true,priority=600
             type=raw,value=latest,enable=true,priority=600
+            type=semver,pattern={{major}},priority=700
+            type=semver,pattern={{major}}.{{minor}},priority=800
+            type=semver,pattern={{version}},priority=900
             # set latest tag for main branch
             #type=raw,value=latest,enable=${{ github.ref == format('refs/heads/{0}', 'main') }}
 
