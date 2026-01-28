@@ -1,4 +1,4 @@
-FROM alpine:3.23.3@sha256:eb37f58646a901dc7727cf448cae36daaefaba79de33b5058dab79aa4c04aefb
+FROM alpine:3.23.3@sha256:25109184c71bdad752c8312a8623239686a9a2071e8825f20acb8f2198c3f659
 
 LABEL org.opencontainers.image.source="https://github.com/codeadminde/alpine-toolbox"
 LABEL org.opencontainers.image.description="Docker image based on alpine image, with additional binaries for building and configuring stuff."
