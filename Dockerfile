@@ -6,7 +6,7 @@ LABEL org.opencontainers.image.description="Docker image based on alpine image, 
 # renovate: datasource=repology depName=alpine_3_23/bash versioning=loose
 ENV APK_BASH_VERSION=5.3.3-r1
 # renovate: datasource=repology depName=alpine_3_23/docker-cli versioning=loose
-ENV APK_DOCKER_CLI_VERSION=29.1.3-r1
+ENV APK_DOCKER_CLI_VERSION=29.1.3-r2
 # renovate: datasource=repology depName=alpine_3_23/httpie versioning=loose
 ENV APK_HTTPIE_VERSION=3.2.4-r1
 # renovate: datasource=repology depName=alpine_3_23/curl versioning=loose
