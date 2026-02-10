@@ -28,7 +28,7 @@ RUN apk --no-cache add --update \
       gettext="$APK_GETTEXT_VERSION"
 
 # renovate: datasource=custom.k8s depName=kubectl
-ENV KUBECTL_VERSION=v1.35.0
+ENV KUBECTL_VERSION=v1.35.1
 
 RUN curl -LO "https://dl.k8s.io/release/$KUBECTL_VERSION/bin/linux/amd64/kubectl" && \
     curl -LO "https://dl.k8s.io/release/$KUBECTL_VERSION/bin/linux/amd64/kubectl.sha256"
